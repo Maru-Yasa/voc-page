@@ -20,7 +20,7 @@ function Profile() {
             </span>
             <br />
             <hr className="my-text col-md-6" />
-            <p className="my-text">Virtual On Community's <span className="fw-bold text-blue">Server</span></p>
+            <p className="my-text">Virtual On Community&apos;s <span className="fw-bold text-blue">Server</span></p>
             <div className="mt-3 row col-12 col-md-7 justify-content-center">
                     <motion.a href='https://discord.gg/jBNtE68Qcc' whileHover={{scale:1.2}} whileTap={{scale:0.9}} className='d-block btn btn-primary'> <i className='bi bi-discord'></i> Join our comunity</motion.a>
             </div>            

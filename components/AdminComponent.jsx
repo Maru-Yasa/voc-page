@@ -34,12 +34,12 @@ export default function AdminComponent(){
         
         <div className="row justify-content-center my-5">
 
-            <motion.div className="col-md-9 row justify-content-center my-card px-5 py-4">
+            <div data-aos="fade-up" className="col-md-9 row justify-content-center my-card px-5 py-4">
                 <h1 className="text-blue mb-5 fw-bold"> <i className="bi bi-people-fill"></i> Admin List</h1>
 
                 {admins.map((admin, index) => {
                     return (
-                        <div key={index} data-aos="fade-up" className="card my-3 mx-2 my-card my-bg border-0 p-0 col-md-3">
+                        <motion.div whileHover={{scale: 1.1}} whileTap={{scale:0.9}} key={index} className="card my-3 mx-2 my-card my-bg border-0 p-0 col-md-3">
                             <img src={admin.img} className='m-0 card-img-top rounded admin-img' alt="" />
                             <div className="card-body">
                                 <div className="my-2">
@@ -50,12 +50,12 @@ export default function AdminComponent(){
                                 <div className="card-title fw-bold">{admin.name}</div>
                                 <p>{admin.moto}</p>
                             </div>
-                        </div>                        
+                        </motion.div>                        
                     )
                 })}
 
             
-            </motion.div>
+            </div>
 
         </div>
     

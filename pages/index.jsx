@@ -10,7 +10,7 @@ import styles from '../styles/Home.module.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export default function Home(){
+export default function Index(){
 
   useEffect(() => {
     AOS.init()
@@ -19,7 +19,6 @@ export default function Home(){
   return (<>
   
     <Container>
-
       <Profile />
       <AboutComponent />
       <RulesComponent />

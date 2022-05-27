@@ -12,8 +12,8 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta charset="utf-8" />
         <title>VOC | Virtual On Community</title>
-        <meta name="description" content="server ngobrol bebas " />
-        <meta name="image" content="https://cdn.discordapp.com/attachments/811955187554975795/972764112583028794/VOC.png" />
+        <meta name="description" content="VOC adalah singkatan dari 'virtual on community' yang didirikan oleh @Resident. Dimana Server ini merupakan sarana komunikasi antar sesama pribumi baik secara langsung melalui suara/video dengan voice channel ataupun dengan text." />
+        <meta name="image" content="https://cdn.discordapp.com/attachments/811955187554975795/979683069491548180/20220526_230241.gif" />
         <meta itemProp="name" content="VOC | Virtual On Community" />
         <meta itemProp="description" content="VOC adalah singkatan dari 'virtual on community' yang didirikan oleh @Resident. Dimana Server ini merupakan sarana komunikasi antar sesama pribumi baik secara langsung melalui suara/video dengan voice channel ataupun dengan text."/>
         <meta itemProp="image" content="https://cdn.discordapp.com/attachments/811955187554975795/972764112583028794/VOC.png" />

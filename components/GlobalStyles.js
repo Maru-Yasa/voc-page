@@ -12,6 +12,15 @@ export const GlobalStyles = createGlobalStyle`
             Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     }
 
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:hover {
+        color: ${({theme}) => theme.textBlue};
+    }
+
     .text-primary {
         color : ${({theme}) => theme.textBlue};
     }

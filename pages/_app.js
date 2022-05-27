@@ -6,6 +6,8 @@ import { darkTheme } from './../components/Themes'
 import NavbarComponent from '../components/NavbarComponent'
 import Head from 'next/head'
 
+import {motion} from 'framer-motion'
+
 function MyApp({ Component, pageProps }) {
 
   return (<>
@@ -28,6 +30,9 @@ function MyApp({ Component, pageProps }) {
       <GlobalStyles />
       <NavbarComponent />
       <Component {...pageProps} />
+      <div className="col-12 my-text fw-bold mt-5 text-center p-3">
+        Created with 💕 by <motion.a whileHover={{scale:1.1}} whileTap={{scale:0.9}} href='https://maruyasa.vercel.app' target="_blank" className='text-blue fw-bold' >Maru</motion.a>
+      </div>
     </ThemeProvider>
 
   </>)

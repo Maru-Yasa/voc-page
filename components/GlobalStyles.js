@@ -52,6 +52,7 @@ export const GlobalStyles = createGlobalStyle`
 
     .logo {
         width: 200px;
+        object-fit: cover;
     }
 
     .text-blue{

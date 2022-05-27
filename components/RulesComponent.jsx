@@ -6,7 +6,7 @@ export default function RulesComponent(){
     
         <div className="row justify-content-center mt-5">
             
-            <div data-aos="fade-up" className="col-10 col-md-9 row justify-content-center my-bg my-card px-5 py-4">
+            <div data-aos="fade-up" className="col-10 col-md-9 row justify-content-center my-bg my-card px-2 px-md-5 py-4">
                 <h1 className="text-blue fw-bold"> <i className="bo bi-paperclip"></i> Server Rules</h1>
                 <div className="col-12 mt-3">
                     <p>                        
